@@ -1,4 +1,4 @@
-name: Telco ColorCoder 
+name: Anagram-selector
 
 on:
   push:
@@ -19,8 +19,8 @@ jobs:
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     env:
-      Solution_Name: statisticker.sln
-      Test_Project_Path: Statistics.Test\Statistics.Test.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Solution_Name: anagram-selector.sln
+      Test_Project_Path: Anagram.Tests\Anagram.Tests.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
 
     steps:
     - name: Checkout
