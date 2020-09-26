@@ -16,3 +16,4 @@ Two functions need to be implemented:
 1. Select anagrams of a word from a list of words.
 
 Tests of these functions are failing. Implement the functions and pass the tests.
+Ensure that your tests cover the examples listed in the above link.
